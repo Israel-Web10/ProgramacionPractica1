@@ -1,49 +1,35 @@
 package Ejercicio3;
+//Crea una clase Coche con marca, modelo y velocidad
 public class Coche {
-        public String fabricante;
-        public String tipo;
-        public int rapidez;
-        public Coche(String fabricante, String tipo) {
-            this.fabricante = fabricante;
-            this.tipo = tipo;
-            this.rapidez = 0;
-        }
+    public String marca;
+    public String modelo;
+    public int velocidad;
 
-        public void acelerar() {
-            rapidez += 10;
-        }
-
-        public void frenar() {
-            if (rapidez >= 5) {
-                rapidez -= 5;
-            } else {
-                rapidez = 0;
-            }
-        }
-
-        public int getRapidez() {
-            return rapidez;
-        }
-
-        public String getFabricante() {
-            return fabricante;
-        }
-
-        public String getTipo() {
-            return tipo;
-        }
+    public Coche(String marca, String modelo, int velocidad) {
+        this.marca=marca;
+        this.modelo=modelo;
+        this.velocidad=velocidad;
+    }
+    //a) Agrega un método acelerar () que aumente la velocidad en 10
+    public void acelerar() {
+        velocidad += 10;
+    }
+    //b) Agrega un método frenar () que disminuya la velocidad en 5
+    public void frenar() {
+        velocidad -= 5;
+    }
     public static void main(String[] args) {
-        Coche coche1 = new Coche("Toyota", "Corolla");
-        Coche coche2 = new Coche("Ford", "Focus");
-
-        coche1.acelerar();
-        coche1.acelerar();
-        coche2.acelerar();
-
-        coche1.frenar();
-        coche2.frenar();
-
-        System.out.println("Coche 1 (" + coche1.getFabricante() + " " + coche1.getTipo() + ") rapidez: " + coche1.getRapidez());
-        System.out.println("Coche 2 (" + coche2.getFabricante() + " " + coche2.getTipo() + ") rapidez: " + coche2.getRapidez());
+        //c) Crea dos coches, aceléralos, frénalos y muestra sus velocidades
+        Coche c1=new Coche("Toyota","Kia",50);
+        Coche c2=new Coche("Ford","Mustang",80);
+        c1.acelerar();
+        c2.acelerar();
+        c1.acelerar();
+        c2.frenar();
+        c1.frenar();
+         // mostrar velocidades 
+         System.out.println("coche 1: " + c1.velocidad);
+         System.out.println("coche 2: " + c2.velocidad);
+     
     }
 }
