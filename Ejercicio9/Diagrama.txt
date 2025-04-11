@@ -1,0 +1,15 @@
++------------------------------------------------------+
+|    Computadora                                       |
++------------------------------------------------------+
+| - cpu: String                                        |
+| - ram: int                                           |
+| - discoDuro: int                                     |
+| - estaEncendida: boolean                             |
++------------------------------------------------------+
+| + Computadora(cpu: String, ram: int, discoDuro: int) |
+| + mostrarComponentes(): void                         |
+| + encender(): void                                   |
+| + apagar(): void                                     |
+| + mostrarEstado(): void                              |
+| + main(args: String[]): void                         |
++------------------------------------------------------+
