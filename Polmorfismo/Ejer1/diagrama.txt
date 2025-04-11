@@ -1,0 +1,14 @@
++----------------------------------------------------------------------+
+|   Videojuego                                                         |
++----------------------------------------------------------------------+
+| - nombre: String                                                     |
+| - plataforma: String                                                 |
+| - jugadores: int                                                     |
++----------------------------------------------------------------------+
+| + Videojuego(nombre: String, plataforma: String)                     |
+| + Videojuego(nombre: String, plataforma: String, jugadores: int)     |
+| + mostrar(): void                                                    |
+| + agregarJugador(): void                                             |
+| + agregarJugador(jugadores: int): void                               |
+| + main(args: String[]): void                                         |
++----------------------------------------------------------------------+
