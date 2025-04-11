@@ -1,5 +1,4 @@
 package Ejercicio7;
-
 public class Celular {
     public int espacioDisponible = 1024; 
     public String[] aplicaciones = new String[20]; 
@@ -69,7 +68,7 @@ public class Celular {
     public class Main {
         public static void main(String[] args) {
             
-            Celular celu = new Celular();
+            celular celu = new celular();
             celu.instalarAplicacion("WhatsApp", 50);
             celu.instalarAplicacion("Yango", 300);
             celu.instalarAplicacion("RedBall4", 150);
