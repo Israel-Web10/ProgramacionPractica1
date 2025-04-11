@@ -1,0 +1,47 @@
++-------------------+
+|   Institucion     |
++-------------------+
+| -                 |
++-------------------+
+| + main(args: String[]): void |
++-------------------+
+
++-------------------+
+|     Oficina       |
++-------------------+
+| - cantidadSillas: int       |
+| - cantidadEscritorios: int  |
+| - cantidadEstanterias: int  |
++-------------------+
+| + Oficina(sillas: int, escritorios: int, estanterias: int) |
+| + mostrarDetalles(): void                                  |
+| + calcularTotalMuebles(sillas: int, escritorios: int, estanterias: int): int |
+| + calcularTotalMuebles(): int                             |
++-------------------+
+
++-------------------+
+|       Aula        |
++-------------------+
+| - nombreAula: String       |
+| - capacidadAula: int       |
+| - cantidadPupitres: int    |
++-------------------+
+| + Aula(nombre: String, capacidad: int, pupitres: int) |
+| + mostrarDetalles(): void                             |
+| + calcularTotalMuebles(pupitres: int): int            |
+| + calcularTotalMuebles(): int                         |
++-------------------+
+
++-------------------+
+|   Laboratorio     |
++-------------------+
+| - nombreLaboratorio: String |
+| - capacidadLaboratorio: int |
+| - cantidadMesas: int        |
+| - cantidadSillas: int       |
++-------------------+
+| + Laboratorio(nombre: String, capacidad: int, mesas: int, sillas: int) |
+| + mostrarDetalles(): void                                              |
+| + calcularTotalMuebles(mesas: int, sillas: int): int                   |
+| + calcularTotalMuebles(): int                                          |
++-------------------+
