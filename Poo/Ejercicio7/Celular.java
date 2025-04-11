@@ -68,7 +68,7 @@ public class Celular {
     public class Main {
         public static void main(String[] args) {
             
-            celular celu = new celular();
+            Celular celu = new Celular();
             celu.instalarAplicacion("WhatsApp", 50);
             celu.instalarAplicacion("Yango", 300);
             celu.instalarAplicacion("RedBall4", 150);
